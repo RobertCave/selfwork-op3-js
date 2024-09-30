@@ -16,8 +16,8 @@ let var2 = prompt("Inserisci il valore numerico della Variabile 2");
 // prompt passa al Js il tipo String e non è possibile effettuare operazioni matematiche 
 
 // Conversione in numeri
-var1=Number(var1);
-var2=Number(var2);
+var1=parseInt(var1);
+var2=parseInt(var2);
 
 
 let somma=var1+var2;
